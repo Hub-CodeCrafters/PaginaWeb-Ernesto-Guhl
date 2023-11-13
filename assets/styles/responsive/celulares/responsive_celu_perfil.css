@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 800px) {
+    .perfil {
+        display: flex;
+        flex-direction: column;
+        height: auto !important;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .perfil_info {
+        height: auto !important;
+        width: 80vw !important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .perfil_foto {
+        display: none;
+    }
+
+    .perfil_foto_responsive {
+        display: block;
+    }
+
+    .section-perfil {
+        height: auto !important;
+    }
+
+    .perfil_descripcion {
+        margin-top: 2vh !important;
+        margin-bottom: 2vh !important;
+        text-align: left;
+    }
+
+    .perfil_h1 {
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+
+    .antropoceno-p_modifid {
+        display: block;
+        padding: 1vh;
+    }
+}

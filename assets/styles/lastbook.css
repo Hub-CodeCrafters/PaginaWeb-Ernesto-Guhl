@@ -1,0 +1,167 @@
+@import url('./main.css');
+
+#last-section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+
+}
+
+.baner {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--four-color);
+    display: flex;
+    position: relative;
+
+}
+
+.baner_title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    margin-left: 3rem;
+    text-decoration: none;
+    color: white;
+    font-family: var(--primary-font);
+}
+
+.baner_h3 {
+    margin: 0;
+    font-size: 1.7rem;
+    border-bottom: 2px solid white;
+}
+
+.baner_img {
+    width: 15%;
+    height: 100%;
+}
+
+.antropoceno-div {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+}
+
+.semi-circle {
+    width: 10rem;
+    height: 3rem;
+    left: 45%;
+    top: -6px;
+    background: var(--four-color);
+    border-radius: 80px 80px 0 0;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+}
+
+.antropoceno_img {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.antropoceno_info {
+    width: 42%;
+    height: 100%;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    text-align: justify;
+    /* background-color: aquamarine; */
+
+}
+
+.antropoceno_h1_p {
+    width: 100%;
+    height: auto;
+
+}
+
+.antropoceno-div h1 {
+    color: var(--primary-color);
+    font-family: var(--bold-font);
+    font-size: 3.4em;
+    margin: 0;
+    text-align: end;
+}
+
+.antropoceno-sub {
+    color: var(--primary-color);
+    font-size: 1.5em;
+    font-family: var(--bold-font);
+    text-align: left;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+   
+
+
+}
+
+.antropoceno-p {
+    /* background-color: aqua; */
+    color: var(--primary-color);
+    text-align: justify;
+    font-size: 1.2em;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-block-start: 0;
+}
+
+
+
+/* estilos apra quitar  era del botom anterior esperar definicion de esstilos y si no quitar */
+/* .antropoceno_buttom{
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    border: none;
+    margin-bottom: 1rem;
+
+}
+.antropoceno-div button img{
+    color: white;
+} */
+
+
+
+/* modeificiador para  la quinaxi ya que llevan los mismos estilos */
+.antropoceno_info_modifid {
+    left: 2rem;
+    align-items: flex-start;
+
+}
+
+.antropoceno-p_modifid {
+    display: flex;
+    text-align: justify;
+}
+
+.antropoceno_h1_p_modifid {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* responsisve */
+.img-antropoceno-responsive{
+    display: none;
+}
+

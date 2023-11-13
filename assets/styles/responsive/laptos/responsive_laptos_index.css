@@ -1,0 +1,145 @@
+/* estilos para que despues del 1920 la pantalla deje de crecer  y se quede quieta  */
+@media (min-width: 1920px) {
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+        overflow-x: hidden;
+        /* Evita la barra de desplazamiento horizontal */
+    }
+}
+
+
+
+@media (max-width: 1455px) {
+
+
+    /* estilos principal */
+    .text-left {
+        font-size: 1em;
+    }
+
+    /* estilos  de antropoceno */
+    .antropoceno-div h1 {
+        font-size: 3em;
+    }
+
+    .antropoceno-sub {
+        font-size: 1.3em;
+    }
+
+    .antropoceno-p {
+        font-size: 1em;
+    }
+
+
+    /* estilos  del perfil */
+    .perfil_descripcion {
+        font-size: 1em;
+    }
+
+    /* estilos   de libros  */
+    .cards-div_card .card-dowm {
+        font-size: 1em;
+
+    }
+
+    /* estilos  de humanidad */
+    .humanidad_cart_p {
+        font-size: 1em;
+    }
+
+    /* estilos  de En Memoria */
+    .post-content-div h6 {
+        font-size: 1.5em;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 1224px) {
+    /* estilos principal */
+    .text-left {
+        font-size: 0.9em;
+    }
+    .text-right h1 {
+        font-size: 2.6em;
+    }
+
+    .text-right {
+        right: 3rem;
+        margin-top: -7vh !important;
+
+    }
+
+    /* estilos  de antropoceno */
+    .antropoceno-div h1 {
+        font-size: 2.9em;
+    }
+
+    .antropoceno-sub {
+        font-size: 1.2em;
+    }
+
+    .antropoceno-p {
+        font-size: 0.9em;
+
+    }
+
+    /* estilos  de perfil */
+    .perfil_h1 {
+        font-size: 2.9em;
+    }
+
+    .perfil_recurso {
+        font-size: 1.2em;
+    }
+    .perfil_descripcion {
+        font-size: 0.9em;
+    }
+    /* estilos de libros  */
+    .cards-div_card .card-dowm {
+        font-size: 0.9em;
+    }
+}
+
+
+
+@media (max-width: 1086px) {
+ /* estilos principal  */
+ /* .text-left { 
+    margin-left: 2em;
+} */
+ .text-right h1 {
+    font-size: 2.3em;
+}
+
+.text-right {
+    right: 2rem;
+
+}
+ /* estilos  de antropoceno */
+ .antropoceno-div h1 {
+    font-size: 2.8em;
+}
+
+.antropoceno-sub {
+    font-size: 1.1em;
+}
+.antropoceno-p {
+    font-size: 0.8em;
+
+}
+/* estilos  de perfil */
+.perfil_h1 {
+    font-size: 2.8em;
+}
+
+ /* estilos del texto de humanidad */
+ .humanidad_cart_p {
+    font-size: 0.8em;
+}
+
+}

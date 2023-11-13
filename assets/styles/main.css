@@ -1,0 +1,20 @@
+@import url('../fonts/AvenirNextLTPro-Medium.ttf');
+@import url('../fonts/AvenirNextLTPro-Bold.ttf');
+
+:root{
+    --primary-color: #60762e;
+    --secondary-color: #a7b461;
+    --thirdr-color: #bbbeb6;
+    --four-color: #2b3651;
+    --five-color: #202632;
+    --primary-font: 'Avenir Medium';
+    --bold-font:'Avenir Bold'
+}
+*{
+    font-family: var(--primary-font);
+}
+
+#book-2022 div img, #bookt-2022 div img {
+    width: 80%;
+    height: auto;
+}

@@ -1,0 +1,83 @@
+@import url("./main.css");
+
+#humanidad {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.humanidad_info{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+} 
+
+
+.humanidad_info_div {
+    width: 60%;
+    height: 80vh;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 1.2em;
+    color: white;
+    z-index: 10;
+    overflow: hidden;
+    background-color: rgb(90, 90, 90); 
+}
+.verde_fondo{
+    /* background-image: url("../images/verde_humanidad.png"); */
+    z-index: 92;
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+   
+}
+
+.humanidad_cart:nth-child(2) {
+    /* background-color: aqua; */
+    width: 82%;
+    position: relative;
+    padding-left: 2rem;
+    font-family: var(--primary-font);
+    z-index: 100;
+
+
+}
+
+.humanidad_cart:nth-child(3) {
+    /* background-color: violet; */
+    width: 75%;
+    position: relative;
+    padding-left: 2rem;
+    font-family: var(--primary-font);
+    z-index: 100;
+}
+
+.humanidad_cart:nth-child(4) {
+    /* background-color: red; */
+    width: 68%;
+    position: relative;
+    padding-left: 2rem;
+    font-family: var(--primary-font);
+    z-index: 100;
+
+}
+
+.humanidad_cart_p {
+    margin-bottom: 0;
+    padding-right:5px;
+    font-size: 1.2em;
+    z-index: 100;
+}
+
+.humanidad_cart_hr {
+    width: 15%;
+    height: 0.09rem;
+    background-color: white;
+    display: inline-block;
+    z-index: 100;
+}

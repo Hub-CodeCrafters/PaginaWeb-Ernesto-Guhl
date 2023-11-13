@@ -1,0 +1,140 @@
+@media screen and (max-width: 800px) {
+
+    .antropoceno_info {
+
+        /* display: none; */
+
+        width: 100vw !important;
+
+        /* height: a; */
+
+        right: 0 !important;
+
+        align-items: center;
+
+ 
+
+    }
+
+ 
+
+    p.antropoceno-p {
+
+        width: 90vw;
+
+        margin: 10px 5px !important;
+
+        text-align: left;
+
+    }
+
+ 
+
+    .antropoceno_info_modifid {
+
+        left: 0 !important;
+
+    }
+
+ 
+
+    .antropoceno_h1_p:nth-child(1) {
+
+        display: flex !important;
+
+        flex-direction: row;
+
+        justify-content: center;
+
+        gap: 1vw;
+
+        margin-top: 2vh;
+
+    }
+
+ 
+
+    .antropoceno_h1_p h1 {
+
+        font-size: 20px !important;
+
+        font-weight: bold;
+
+    }
+
+ 
+
+    .antropoceno-sub {
+
+        /* text-align: center; */
+
+        width: 100%;
+
+        font-size: 14px !important;
+
+    }
+
+ 
+
+    .antropoceno-div h1 {
+
+        text-align: center;
+
+    }
+
+ 
+
+    .antropoceno-buttom {
+
+        align-self: flex-start;
+
+        margin-left: 4vw;
+        margin-bottom: 2vh;
+
+    }
+
+ 
+
+    .antropoceno-div-title {
+
+        width: 40%;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: flex-start;
+        margin-left: 1vw ;
+
+    }
+
+ 
+
+    .img-antropoceno-responsive {
+
+        display: block !important;
+
+    }
+
+    .banner-quinaxi{
+
+        display: block;
+
+        background-image: url("../../../images/responsive/App-1.png");
+
+        width: 100vw;
+
+        height: 160px;
+
+    }
+
+    .eq_h1{
+
+        margin-top: 180px !important;
+        justify-content: flex-start !important;
+        margin-left: 10vw !important;
+
+    }
+}

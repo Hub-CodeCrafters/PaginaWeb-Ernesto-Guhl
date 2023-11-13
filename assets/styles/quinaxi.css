@@ -1,0 +1,64 @@
+.antropoceno{
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-around;
+    overflow: hidden;
+}
+hr{
+    border: 2px solid rgb(027, 033, 047);
+    width: 80vw;
+}
+.antropoceno-image{
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.antropoceno-image img{
+    width: 100%;
+    height: 70%;
+}
+.antropoceno-text {
+  
+    width: 30vw;
+    padding: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.antropoceno-text h2{
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.antropoceno-text H4{
+    font-size: 24px;
+    margin: 0;
+    width: 100%;
+    color: rgb(046, 067, 117);
+}
+
+.antropoceno-text P{
+    font-size: 20px;
+    width: 100%;
+}
+.antropoceno-button{
+    display: flex;
+}
+.boton-ir-app{
+    margin-right: 5vw;
+    padding: 7px;
+    width: 100px;
+    height: 38px;
+    background-color: rgb(027, 033, 047);
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

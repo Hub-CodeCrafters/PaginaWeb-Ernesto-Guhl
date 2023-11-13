@@ -1,0 +1,112 @@
+@import url('./main.css');
+
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* quitamos stilos de defecto */
+    padding: 0;
+    color: white;
+}
+
+/* -----------estilos del nav general ------------- */
+.nav {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999999;
+}
+
+/* ---------estilos del name ------------*/
+.nav_name{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2.2rem;
+}
+
+.nav_name_a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav_name_h3 {
+    font-size: 1.5em;
+    font-family: var(--bold-font);
+    /* quitamos stilos de defecto */
+    margin: 0;
+}
+
+
+
+/* estilos icono menu para tables */
+.menu{
+    /* background-color: aqua; */
+    display: none;
+    width: 4rem;
+    height: 100%;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+
+/* -------------estilos del la lista de navegación----------- */
+
+.nav_ul {
+    /* quitamos stilos de defecto */
+    margin: 0;
+    /* estilos propios */
+    display: flex;
+    align-items: center;
+    margin-right: 2.2rem;
+    gap: 3rem;
+    height: 100%;
+    width:auto;
+    list-style: none;
+    font-size: 1.2rem;
+    /* se quitan estilos por defecto  */
+    padding-inline-start: 0px;
+}
+
+.nav_ul_li {
+    position: relative;
+    font-family: var(--primary-font);
+    width: auto;
+    height: 1.9rem;  
+   
+}
+
+.nav_ul_li_a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_ul_li::before {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid white;
+    bottom: 0;
+    width: 0;
+    transition: all 800ms;
+}
+
+.nav_ul_li:hover::before {
+    width: 100%;
+
+}

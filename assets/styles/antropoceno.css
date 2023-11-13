@@ -1,0 +1,45 @@
+.antropoceno {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+}
+/* prueba  push 2*/
+hr {
+    border: 2px solid rgb(027, 033, 047);
+    width: 80vw;
+}
+
+.antropoceno-image {
+    padding: 50px;
+}
+
+.antropoceno-image img {
+    width: 40vw;
+}
+
+.antropoceno-text {
+    width: 60vw;
+    padding: 50px;
+}
+
+.antropoceno-text h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.antropoceno-text H4 {
+    font-size: 32px;
+    margin: 0;
+    width: 90%;
+    color: rgb(046, 067, 117);
+}
+
+.antropoceno-text P {
+    font-size: 20px;
+    width: 90%;
+
+}
+
+

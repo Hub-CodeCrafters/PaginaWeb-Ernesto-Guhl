@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Expires" content="0">
+
+    <meta http-equiv="Last-Modified" content="0">
+
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+
+    <meta http-equiv="Pragma" content="no-cache">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/styles/header.css">
+    <link rel="stylesheet" href="../assets/styles/responsive/headerRes.css">
+    <link rel="stylesheet" href="../assets/styles/responsive/celulares/resposnive_celu_publicaciones.css">
+    <link rel="stylesheet" href="../assets/styles/lastbook.css">
+    <link rel="stylesheet" href="../assets/styles/booksmain.css">
+    <link rel="stylesheet" href="../assets/styles/contenido.css">
+    <link rel="stylesheet" href="../assets/styles/blocks/filter.css">
+    <link rel="stylesheet" href="../assets/styles/publicaciones.css">
+    <!-- link de stilos del cdn  para el carrousel -->
+    <link rel="stylesheet" href="../assets/styles/carrousel_articulos.css">
+
+    <title>Publicaciones</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav class="nav">
+            <div class="nav_name">
+                <a class="nav_name_a" href="../index.html">
+                    <h3 class="nav_name_h3">Ernesto Guhl Nannetti</h3>
+                </a>
+            </div>
+            <img class="menu" src="../assets/icons/bx-menu-alt-right.svg">
+            <ul class="nav_ul">
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../index.html">Inicio</a></li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../index.html#books-section">Libros</a></li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../index.html#post-section">Publicaciones</a></li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a"
+                        href="../paginas/publicaciones.html#articulos">Articulos</a></li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../paginas/publicaciones.html#prensa">Prensa</a></li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../paginas/publicaciones.html#informes">Informes</a>
+                </li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../index.html#humanidad">Aporte a la Humanidad</a>
+                </li>
+                <li class="nav_ul_li"><a class="nav_ul_li_a" href="../index.html#en_memoria">En Memoria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="project">
+        <div class="baner baner-libros">
+            <a class="baner_title" href="">
+                <h3 class="baner_h3">Publicaciones</h3>
+            </a>
+        </div>
+        <div class="semi-circle semi-circle-libros">
+            <img loading="lazy" src="../assets/icons/bxs-chevron-up.svg" alt="">
+        </div>
+        <div id="categories">
+            <nav class="categories_nav">
+                <div class="swiper swiperFilter">
+                    <div class="swiper-wrapper swiper-wrapper-filter">
+                        <div class="swiper-slide swiper-slide-opcion">
+                            <li id="Análisis territorial" class=" categories_li"><a class="categories_li_a">Análisis
+                                    territorial</a></li>
+                        </div>
+                        <div class="swiper-slide swiper-slide-opcion">
+                            <li id="Formulación de politicas" class="swiper-slide categories_li"><a
+                                    class="categories_li_a">Formulación de
+                                    politicas</a></li>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-opcion">
+                            <li id="Tecnologias limpias" class="categories_li"><a class="categories_li_a">Tecnologias
+                                    limpias</a></li>
+                        </div>
+
+                        <div class="swiper-slide swiper-slide-opcion">
+                            <li id="Fecha" class="categories_li"><a class="categories_li_a">Fecha</a></li>
+                        </div>
+
+
+                        <div class="swiper-slide swiper-slide-opcion">
+                            <li id="Borrar" class="categories_li"><a class="categories_li_a">Eliminar filtros</a></li>
+                        </div>
+
+                    </div>
+
+                    <!-- Flecha de navegación izquierda y derecha y por paginacion -->
+                    <div class="swiper-button-next swiper-button-next-azul"></div>
+                    <div class="swiper-button-prev swiper-button-next-azul"></div>
+
+                </div>
+            </nav>
+        </div>
+        <div class="filters">
+            <div class="filter_one">
+                <p class="filter_tipo" id="books_escala-regional">Escala Regional</p>
+                <p class="filter_tipo" id="books_escala-local">Escala Local</p>
+            </div>
+            <div class="filter_two">
+                <p class="filter_tipo" id="books_investigacion-ambiental">Investigación Ambiental</p>
+                <p class="filter_tipo" id="books_manejo-agua">Manejo de Agua</p>
+            </div>
+            <div class="filter_three">
+                <p class="filter_tipo" id="books_tec-limpias">Tecnologías Limpias</p>
+            </div>
+            <div class="filter_four">
+                <div class="swiper  swiperYear">
+                    <div class="swiper-wrapper swiper-wrapper-year">
+                        <!-- year se renderizan con javascript -->
+                    </div>
+
+                    <!-- Flecha de navegación izquierda y derecha y por paginacion -->
+                    <div class="swiper-button-next swiper-button-next-azul"></div>
+                    <div class="swiper-button-prev swiper-button-next-azul"></div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Informes == 1 -->
+        <div class="categorie" id="informes">
+            <h4 class="categorie_title">Informes</h4>
+            <div id="categorie_books" class="categorie"> </div>
+        </div>
+        <!-- Articulos == 2 -->
+        <div class="categorie" id="articulos">
+            <h4 class="categorie_title">Articulos</h4>
+            <div id="categorie_caps" class="categorie"></div>
+        </div>
+        <!-- videos -->
+        <div class="categorie" id="Videos">
+            <h4 class="categorie_title">Videos</h4>
+            <div class="swiper swiperVideos">
+                <div class="swiper-wrapper swiper-wrapper-videos">
+                    <!-- year se renderizan con javascript -->
+                </div>
+
+                <!-- Flecha de navegación izquierda y derecha y por paginacion -->
+                <div class="swiper-button-next swiper-button-next-azul"></div>
+                <div class="swiper-button-prev swiper-button-next-azul"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+        <!-- estos son los tamplate que se clonan para usar al renderizar las tarjetas y los años-->
+        <template id="template_elemento">
+            <div class="categorie_year">
+                <hr class="categorie_hr"><span class="year"></span>
+                <hr class="categorie_hr">
+            </div>
+            <div class="categorie_cars">
+
+            </div>
+        </template>
+
+        <template id="template_content">
+            <div class="cart">
+                <img loading="lazy" class="cart_img" src="" alt="">
+                <p class="cart_p"></p>
+                <a href="" class="cart_button" target="_blank"> Ver más &#10132;</a>
+            </div>
+        </template>
+    </section>
+
+
+    <!-- Slider main container  prensa == 3-->
+
+    <div class="categorie" id="prensa">
+        <h4 class="categorie_title">Prensa</h4>
+        <div id="categorie_caps" class="categorie"></div>
+    </div>
+
+    <section id=carrousel_articulos>
+        <!-- <h4 class="categorie_title">Más Articulos</h4>  -->
+        <div class="swiper  mySwiper">
+
+            <div class="swiper-wrapper mySwiper_wrapper">
+
+            </div>
+
+            <!-- Flecha de navegación izquierda y derecha y por paginacion -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!-- div del booton de up para volver a subir  -->
+    <div class="buttom_up">
+        <img loading="lazy" class="img_up" src="../assets/icons/bxs-chevron-up.svg" alt="">
+    </div>
+
+
+</body>
+
+<script src="../controllers/publicacionesController.js" type="module"></script>
+<script src="../helpers/filterHelpers.js" type="module"></script>
+<script src="../helpers/bottom_up.js"></script>
+<!-- JS DEL SWIPER DE LIBROS  -->
+<script src="../helpers/swiperLibros.js" type="module"></script>
+
+<!-- script del cdn de swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</html>

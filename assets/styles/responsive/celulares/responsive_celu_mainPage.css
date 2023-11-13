@@ -1,0 +1,188 @@
+@media screen and (max-width: 800px) {
+    .main-section {
+        display: flex !important;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .img-onda {
+        /* width: auto !important; */
+        display: none !important;
+    }
+
+    .text-left {
+        /* margin-top: 11vh;
+         */
+        width: 95vw !important;
+        margin-left: 0 !important;
+        /* padding: 15px; */
+    }
+
+    .text-right {
+        /* top: 62vh !important;
+ 
+        left: 0px !important; */
+        /* width: 100vw !important; */
+        display: none;
+        /* justify-content: center; */
+    }
+
+    .antropoceno-div {
+        display: flex !important;
+    }
+
+    .semi-circle,
+    .antropoceno_img {
+        display: none !important;
+    }
+
+    .antropoceno_info {
+        width: 100vw !important;
+    }
+
+    .antropoceno-img-responsive,
+    .quinaxi-img-responsive {
+        flex: 1;
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .antropoceno-img-responsive img,
+    .quinaxi-img-responsive img {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .next,
+    .next-q {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 90%;
+        z-index: 9999;
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        text-decoration: none;
+        z-index: 210;
+        cursor: pointer;
+    }
+
+    .preview,
+    .preview-q {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        z-index: 9999;
+        width: 40px;
+        height: 40px;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        text-decoration: none;
+        z-index: 210;
+        cursor: pointer;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .carousel-responsive-main {
+        display: flex !important;
+        width: 100vw;
+        /* Ancho deseado de las imágenes */
+        height: 400px;
+        /* Alto deseado de las imágenes */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .carousel-responsive-main img {
+        /* width: 100%; */
+        height: 400px;
+        object-fit: cover;
+        transition: transform 1s ease-in-out;
+    }
+.carousel-responsive-aporte img{
+    object-fit: contain;
+}
+
+    /* Estilos para la animación del carrusel */
+
+    .carousel-responsive-main img:nth-child(2) {
+        transform: translateX(-100%);
+    }
+
+    .carousel-responsive-main img:nth-child(3) {
+        transform: translateX(-200%);
+    }
+
+    .carousel-responsive-main img:nth-child(4) {
+        transform: translateX(-300%);
+    }
+
+    /* Animación automática del carrusel */
+    @keyframes slide {
+        0% {
+            transform: translateX(0%);
+        }
+
+        12.5% {
+            transform: translateX(-100%);
+        }
+
+        25% {
+            transform: translateX(-200%);
+        }
+
+        37.5% {
+            transform: translateX(-300%);
+        }
+
+        50% {
+            transform: translateX(-300%);
+        }
+        67% {
+            transform: translateX(-200%);
+        }
+        84% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+    .carousel-responsive-main img {
+        animation: slide 60s linear forwards;
+    }
+
+    .title-ernesto-responsive {
+        display: block;
+    }
+
+    .title-ernesto-responsive h1 {
+        font-size: 4vh;
+        color: #60762e;
+    }
+    .info_carousel{
+        display: none;
+    }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: white !important;
+}

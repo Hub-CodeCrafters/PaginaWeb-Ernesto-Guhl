@@ -1,0 +1,129 @@
+@import url('../main.css');
+
+/* ---------responsive laptos portatiles ------------*/
+
+
+@media (max-width: 1315px) {
+
+    /* estilos del tamaño de la letra del nav bar  */
+    .nav_name_h3 {
+        font-size: 1.3em;
+    }
+
+    .nav_ul {
+
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width:1166px) {
+
+    /*------- estilos del ul li principal --------- */
+    .nav_ul {
+        gap: 2rem;
+    }
+
+    .nav_ul_li {
+        width: min-content;
+        height: auto;
+        text-align: center;
+        padding-bottom: 0.3rem;
+        position: relative;
+    }
+
+    .nav_ul_li::before {
+        left: 0;
+    }
+
+    /*----------------- estilos de las opciones del nav------------------- */
+
+    .nav_ul_li_options {
+        position: absolute;
+
+    }
+
+}
+
+/* ---------------termina responsive laptos ---------------- */
+
+
+
+
+/* -------------responsive tables ----------------- */
+
+@media screen and (max-width:960px) {
+
+    /* estilos del nav principal lo quitamos y lo modificamos */
+    .nav_ul {
+        display: none;
+        flex-direction: column;
+        width: 12rem;
+        height: 100vh;
+        position: absolute;
+        margin-top: 4rem;
+        margin-right: 0;
+        right: 0;
+        padding-top: 2rem;
+        background-color: var(--primary-color);
+    }
+
+    .nav_ul_li {
+        height: auto;
+    }
+
+
+
+    .menu {
+        display: flex;
+    }
+
+
+    .menu:hover~.nav_ul,
+    .nav_ul:hover {
+        display: flex;
+    }
+
+
+    .nav_ul_li_options {
+        display: none;
+        padding-top: 0;
+        z-index: 3;
+        left: -11.5rem;
+        top: -0.03rem;
+        padding-right: 2.5rem;
+        gap: 0;
+    }
+
+    .nav_ul_li_option {
+        border-top: 0;
+        border-bottom: 0.001rem solid var(--thirdr-color);
+    }
+
+
+}
+
+/* -------------responsive tables---------------- */
+
+
+/* ----------------estilos movil--------------------- */
+@media screen and (max-width:480px) {
+    .nav_name_h3 {
+        font-size: 1.3rem;
+    }
+
+    .nav_name_span {
+        font-size: 0.9rem;
+    }
+
+    .menu {
+        width: 3rem;
+    }
+
+    .nav_ul_li {
+        font-size: 1.1rem;
+    }
+
+}
+
+/* ----------------termina responsive movil--------------------- */

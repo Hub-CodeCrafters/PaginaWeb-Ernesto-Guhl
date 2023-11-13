@@ -1,0 +1,90 @@
+@import url("./main.css");
+
+#aplications{
+    width: 100%;
+    height: 90vh;
+     background-image: url("../images/Fondo_aplicaciones.png");
+    background-size: cover;
+}
+
+
+
+
+.publications_cars{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom:0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+  
+}
+
+.car{
+    /* background-color:rgb(96, 118, 46,0.9); */
+    background-color: rgb(167, 180, 97,0.7);
+    width: 25%;
+    height: 50vh;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.car_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    font-family: var(--primary-font);
+    box-shadow: 2px 2px 30px   black;
+}
+.car_img{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.car_info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.car_info_hr{
+    background-color: var(--primary-color);
+    width: 3rem;
+    height: 0.06rem;
+}
+.car_info_p{
+    /* se quitan estilos por defecto */
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.car_info_button{
+    background-color: var(--primary-color);
+    margin-top: 2rem;
+    width: auto;
+    height: 2rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+

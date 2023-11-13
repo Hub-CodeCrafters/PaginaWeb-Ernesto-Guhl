@@ -1,0 +1,143 @@
+@import url('./main.css');
+
+#books-section {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.baner-libros{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.books-cards{
+    width: 100%;
+    height: 80vh;
+    background-image: url("../images/Fondo_Libros.png");
+    background-size: cover;
+
+    position: relative;
+    
+}
+
+.semi-circle-libros{
+    background-color: var(--primary-color);
+}
+
+
+.books-cards_title {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+
+.books-cards_title_h4{
+    margin: 0;
+}
+
+/* ESTILOS DEL SWIPER */
+.swiperLibros{
+    width: 55%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    margin-top: 1.2rem; 
+    margin-left: 3rem;
+    /* background-color: aqua; */
+}
+
+
+
+
+.cards-div_card {
+    border: 1px solid white;
+    background-color: white;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cards-div_card .card-top {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.cards-div_card .card-top img {
+    width: 100%;
+    height: 100%;
+}
+
+.cards-div_card .card-dowm {
+    padding: 0px 7px;
+    height: 40%;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.cards-div_card .card-dowm hr {
+    width: 50%;
+    border: 1px solid var(--primary-color);
+}
+
+.books-cards-dowm{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+}
+
+
+.books-cards_button {
+    color: var(--primary-color);
+    height: 3rem;
+    width: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 1.2em;
+    }   
+
+    .card-dowm p{
+        margin-block-end: 0;
+        margin-block-start: 0;
+    }
+
+    /* .swiper-button-next_libros{
+        right: -15px;
+        
+    } */
+
+
+
+
+/* estilos de flechas generales */
+
+.swiper-button-next{
+    color: white;
+}
+.swiper-button-prev{
+    color: white;
+}

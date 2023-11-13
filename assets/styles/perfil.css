@@ -1,0 +1,106 @@
+.perfil {
+    /* background-color: aqua; */
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)), url(../../assets/images/perfil/1-13__LA_AMAZONIA_EN_LA_CUMBRE_DE_CAMBIO_CLIMATICO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.perfil_info {
+    width: 70%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.perfil_h1 {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    font-size: 2.5rem;
+    font-family: var(--bold-fond);
+    color: white;
+    margin-block-start: 0.35em;
+    margin-block-end: 0;
+    text-shadow: 2px 2px 4px rgba(96, 118, 46, 0.8);
+}
+
+.perfil_descripcion {
+    font-size: 1.2em;
+    height: auto;
+    font-family: var(--primary-fond);
+    color: white;
+    padding: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.perfil_img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil_contenido_img {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--four-color); */
+
+}
+
+.perfil_foto {
+    width: 90%;
+    height: 90%;
+
+}
+
+/* .perfil_recursos{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+} */
+.perfil_recurso {
+    background-color: var(--primary-color);
+    height: 2.5rem;
+    width: auto;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    color: white;
+    font-family: var(--primary-fond);
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+
+}
+
+.perfil_recurso:hover {
+    /* width: 7.5rem; */
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+.perfil_foto_responsive {
+    display: none;
+}

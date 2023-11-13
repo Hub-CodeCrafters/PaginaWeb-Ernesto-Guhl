@@ -1,0 +1,196 @@
+/* estilos del filtro  para los libros o articulos */
+
+#categories {
+    width: 100%;
+    height: 6rem;
+    margin-top: 3rem;
+
+}
+
+.categories_nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.swiperFilter{
+    width: 90%;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 0px 10px 3px var(--thirdr-color);
+   
+
+}
+
+.swiper-wrapper-filter{
+    width: 80%;
+  
+}
+.swiper-slide-opcion{
+    width: 20%;
+}
+
+/* .categories_ul {
+    width: 95%;
+    height: 80%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(5, calc(100%/5));
+    box-shadow: 0px 0px 10px 3px var(--thirdr-color);
+} */
+
+.categories_li {
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    border-right: 1px solid var(--thirdr-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.categories_li:hover {
+    background-color: var(--four-color);
+    transition: 600ms;
+}
+
+.categories_li:hover>.categories_li_a {
+    color: white;
+}
+
+.libre_acceso {
+    display: flex;
+    gap: 12px;
+}
+
+.categories_li_img {
+    width: 26px;
+    height: 26px;
+    background-color: var(--primary-color);
+    border-radius: 18px;
+    padding: 5px;
+
+}
+
+.categories_li_a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: var(--primary-font);
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+/* categorie optiones  */
+
+.categorie_li_options {
+    background-color: var(--primary-color);
+    width: 100%;
+    position: absolute;
+    top: 4.8rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* defecto */
+    padding-inline-start: 0;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.categorie_li_option {
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.categories_li:hover>.categorie_li_options {
+    display: flex;
+    transition: 600ms;
+}
+
+.categorie_select {
+    background-color: var(--four-color);
+}
+
+.categorie_select_color {
+    color: white;
+}
+
+
+/* estilos de las opciones del filter */
+.filters {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+.filter_one,
+.filter_two,
+.filter_three {
+    width: 100%;
+    display: none; 
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.filter_four {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap : 1rem;
+}
+
+.filter_tipo {
+    color: var(--primary-color);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    height: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 3px var(--thirdr-color);
+}
+
+.add {
+    display: flex;
+}
+
+
+/* cambio de color de botones de swiper
+
+ */
+ .swiper-button-next-azul{
+    color: var(--primary-color);
+ }
