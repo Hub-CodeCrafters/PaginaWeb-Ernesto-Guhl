@@ -1,4 +1,3 @@
-/* prueba del pul reques  */
 .antropoceno{
     display: flex;
     height: 80vh;
@@ -22,8 +21,7 @@ hr{
     width: 100%;
     height: 70%;
 }
-.antropoceno-text {
-  
+.antropoceno-text {  
     width: 30vw;
     padding: 30px;
     overflow: hidden;
