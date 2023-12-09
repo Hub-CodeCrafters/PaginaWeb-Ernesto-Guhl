@@ -1,9 +1,12 @@
 // archivo encargado de  interatuar con la funciones que sacan los datos y con las que muestran los datos  osea con los servicio y view necesarios para mostrar la informacion de los libros segun el filtro
 
 import { getAllPublications, getPublicationByCategory, everyYear, removeElementsByClass,getUniqueYears } from '../services/contentService.js';
-import Libros from '../assets/data/libros.js';
-import { showYears, showPost, showAllYears } from '../views/contentView.js';
+import { showYears,showContent, showAllYears } from '../views/contentView.js';
 import { removeFilterSubtipo, addSelecFilter, removeFilterSelec } from '../helpers/filterHelpers.js';
+
+
+// data necesaria
+import Libros from '../assets/data/libros.js';
 
 const categories = document.getElementsByClassName("categories_li")
 const categories_li_a = document.getElementsByClassName("categories_li_a")
@@ -119,11 +122,12 @@ function main(data) {
     removeElementsByClass('categorie_cars')
     const dataObtenidad = getAllPublications(data);
     const years = getUniqueYears(dataObtenidad);
-    showYears(years.sortedYearsTipo1,'libros');
-    showYears(years.sortedYearsTipo2,'capitulos' );
+    showYears(years.sortedYearsTipo3,'libros');
+    showYears(years.sortedYearsTipo4,'capitulos');
     // mostramos las cartas
-    showPost(dataObtenidad,'libros','capitulos');
-    // mostramos los años del filtro  
+    showContent(dataObtenidad,'libros');
+    showContent(dataObtenidad,'capitulos');
+
 }
 
 
@@ -135,10 +139,11 @@ function filtro(data, category) {
     // removeElementsByClass('swiper_slide_articulo')
     const dataObtenidad = getPublicationByCategory(data, category);
     const years = getUniqueYears(dataObtenidad);
-    showYears(years.sortedYearsTipo1,'libros' );
-    showYears(years.sortedYearsTipo2,'capitulos' );
-    // mostramos las cartas
-    showPost(dataObtenidad,'libros','capitulos');
+    showYears(years.sortedYearsTipo3,'libros' );
+    showYears(years.sortedYearsTipo4,'capitulos' );
+    // mostrar carats
+    showContent(dataObtenidad,'libros');
+    showContent(dataObtenidad,'capitulos');
    
 }
 

@@ -19,27 +19,32 @@ export const getPublicationByCategory = (data, category) => {
 
 
 export const getUniqueYears = (data,) => {
+
     const yearsTipo1 = new Set();
     const yearsTipo2 = new Set();
     const yearsTipo3 = new Set();
+    const yearsTipo4 = new Set();
 
     data.forEach(element => {
-        if (element.tipo === 1) {
+        if (element.tipo === "informes") {
             yearsTipo1.add(element.year);
         }
-        if (element.tipo === 2) {
+        if (element.tipo === "articulos") {
             yearsTipo2.add(element.year);
         }
-        if (element.tipo === 3) {
+        if (element.tipo === "libros") {
             yearsTipo3.add(element.year);
+        }
+        if (element.tipo === "capitulos") {
+            yearsTipo4.add(element.year);
         }
     });
 
     const sortedYearsTipo1 = [...yearsTipo1].sort((a, b) => a - b);
     const sortedYearsTipo2 = [...yearsTipo2].sort((a, b) => a - b);
     const sortedYearsTipo3 = [...yearsTipo3].sort((a, b) => a - b);
-
-    return { sortedYearsTipo1, sortedYearsTipo2,sortedYearsTipo3 };
+    const sortedYearsTipo4 = [...yearsTipo4].sort((a, b) => a - b);
+    return { sortedYearsTipo1, sortedYearsTipo2,sortedYearsTipo3,sortedYearsTipo4 };
 };
 
 
