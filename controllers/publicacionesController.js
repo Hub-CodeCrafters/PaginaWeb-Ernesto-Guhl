@@ -1,11 +1,12 @@
 // archivo encargado de  interatuar con la funciones que sacan los datos y con las que muestran los datos  osea con los servicio y view necesarios para mostrar la informacion de las publicaciones segun el filtro
 import { getAllPublications, getUniqueYears, getPublicationByCategory, everyYear, removeElementsByClass } from '../services/contentService.js';
-import { showYears, showPost, showAllYears,showVideos } from '../views/contentView.js';
+import { showYears, showPrensa,showContent, showAllYears,showVideos } from '../views/contentView.js';
 import { removeFilterSubtipo, addSelecFilter, removeFilterSelec } from '../helpers/filterHelpers.js';
 
 // data necesaria
 import publicaciones from '../assets/data/publicaciones.js';
 import dataVideos from '../assets/data/dataVideos.js';
+import Data_prensa from '../assets/data/libros_Ernesto/data_prensa.js';
 
 
 
@@ -124,8 +125,9 @@ function main(data) {
     // mostrar los videos
     showVideos(dataVideos);
     // mostramos las cartas
-    showPost(dataObtenidad,'informes','articulos');
-    // mostramos los años del filtro  
+    showContent(dataObtenidad,'informes');
+    showContent(dataObtenidad,'articulos');
+    showPrensa(Data_prensa);
 }
 
 
@@ -141,8 +143,9 @@ function filtro(data, category) {
     showYears(years.sortedYearsTipo1,'informes');
     showYears(years.sortedYearsTipo2,'articulos');
     // mostramos las cartas
-    showPost(dataObtenidad,'informes','articulos');
-   
+    showContent(dataObtenidad,'informes');
+    showContent(dataObtenidad,'articulos');
+    showPrensa(Data_prensa);
 }
 
 

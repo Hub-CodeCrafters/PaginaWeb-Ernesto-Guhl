@@ -1,5 +1,6 @@
 // archivo que se encarga de mostrar la informacion de las publicaciones o libros segun donde se utilice
 
+
 // funcion  para mostrar los años de la data 
 export const showYears = (data, divId) => {
     const divElement = document.getElementById(divId);
@@ -15,9 +16,29 @@ export const showYears = (data, divId) => {
     });
 };
 
+export const showContent = (data, tipo) => {
+    
+    const templateContent = document.getElementById('template_content');
 
+    data.forEach(element => {
+        if (element.tipo === tipo) {
+            const plantillaCarta = document.importNode(templateContent.content, true);
+            const ContainerCarInformes = document.querySelector(`.categorie_cars[${tipo}-year="${element.year}"]`);
+            if (ContainerCarInformes) {
+                plantillaCarta.querySelector('.cart_img').src = element.img_principal;
+                plantillaCarta.querySelector('.cart_p').textContent = element.title;
+                plantillaCarta.querySelector('.cart_button').href = element.url
+                ContainerCarInformes.appendChild(plantillaCarta);
+            }
+        }
+    });
+
+
+
+}
 // esta funcion se encarga de mostrar todas las tarjetas de la data que se le pasa  en su corespondiente año  y  tipo
-export const showPost = (data, tipo1, tipo2) => {
+export const showPrensa = (data,) => {
+
     const templateContent = document.getElementById('template_content');
 
     // definimos el js del wiper por fuera para no hacerlo dentro del bucle  y el if  pero hay que ver si se saca para otro lado  por que esta funcion
@@ -49,42 +70,22 @@ export const showPost = (data, tipo1, tipo2) => {
 
     data.forEach(element => {
         const plantillaCarta = document.importNode(templateContent.content, true);
-        if (element.tipo == 1) {
-            const ContainerCarInformes = document.querySelector(`.categorie_cars[${tipo1}-year="${element.year}"]`);
-            if (ContainerCarInformes) {
-                plantillaCarta.querySelector('.cart_img').src = element.img_principal;
-                plantillaCarta.querySelector('.cart_p').textContent = element.title;
-                plantillaCarta.querySelector('.cart_button').href = element.url
-                ContainerCarInformes.appendChild(plantillaCarta);
 
-            }
-        }
-        if (element.tipo === 2) {
-            const ContainerCarArticles = document.querySelector(`.categorie_cars[${tipo2}-year="${element.year}"]`);
-            if (ContainerCarArticles) {
-                plantillaCarta.querySelector('.cart_img').src = element.img_principal;
-                plantillaCarta.querySelector('.cart_p').textContent = element.title;
-                plantillaCarta.querySelector('.cart_button').href = element.url
-                ContainerCarArticles.appendChild(plantillaCarta);
-            }
-        }
+        // declaramos el  funcionamiento antes de mostrar cada elemento
+        // mostramos los elementos en el dom
+        const newDiv1 = document.createElement('div');
+        newDiv1.classList.add('swiper-slide', 'swiper_slide_articulo');
+        newDiv1.innerHTML = `
+                <a class="carrousel_icon"  href="${element.url_pdf}" target="_blank">
+                <img class="carrousel_icon_img" src="../assets/icons/bxs-right-top-arrow-circle.svg">
+                </a>
+                <img loading="lazy" class="carrousel_img" src="${element.img_principal}" alt="">
+                <span class="carrousel_span" >${element.title}</span>
+                <p class="carrousel_p">${element.year}</p>
+                `;
+        swiperWrapper.appendChild(newDiv1);
 
-        if (element.tipo === 3) {
-            // declaramos el  funcionamiento antes de mostrar cada elemento
-            // mostramos los elementos en el dom
-            const newDiv1 = document.createElement('div');
-            newDiv1.classList.add('swiper-slide', 'swiper_slide_articulo');
-            newDiv1.innerHTML = `
-<a class="carrousel_icon"  href="${element.url_pdf}" target="_blank">
-<img class="carrousel_icon_img" src="../assets/icons/bxs-right-top-arrow-circle.svg">
-</a>
-<img loading="lazy" class="carrousel_img" src="${element.img_principal}" alt="">
-<span class="carrousel_span" >${element.title}</span>
-<p class="carrousel_p">${element.year}</p>
-`;
-            swiperWrapper.appendChild(newDiv1);
 
-        }
 
 
     });
@@ -115,24 +116,24 @@ export const showAllYears = (data) => {
         breakpoints: {
             // when window width is >= 320px
             320: {
-              slidesPerView: 2,
-              spaceBetween: 10
+                slidesPerView: 2,
+                spaceBetween: 10
             },
             // when window width is >= 480px
             480: {
-              slidesPerView: 4,
-              spaceBetween: 10
+                slidesPerView: 4,
+                spaceBetween: 10
             },
             // when window width is >= 640px
             640: {
-              slidesPerView: 6,
-              spaceBetween: 10
+                slidesPerView: 6,
+                spaceBetween: 10
             },
             960: {
                 slidesPerView: 7,
                 spaceBetween: 10
-              }
-          }
+            }
+        }
     });
 
     const swiper_wrapper_year = document.querySelector('.swiper-wrapper-year');
@@ -172,29 +173,29 @@ export const showVideos = (data) => {
         breakpoints: {
             // when window width is >= 320px
             320: {
-              slidesPerView: 1,
-              spaceBetween: 10
+                slidesPerView: 1,
+                spaceBetween: 10
             },
             // when window width is >= 480px
             480: {
-              slidesPerView: 2,
-              spaceBetween: 10
+                slidesPerView: 2,
+                spaceBetween: 10
             },
             // when window width is >= 640px
             640: {
-              slidesPerView: 3,
-              spaceBetween: 10
+                slidesPerView: 3,
+                spaceBetween: 10
             },
             960: {
                 slidesPerView: 4,
                 spaceBetween: 10
-              }
-          }
+            }
+        }
     });
-    const swiperWrappervideo= document.querySelector('.swiper-wrapper-videos');
+    const swiperWrappervideo = document.querySelector('.swiper-wrapper-videos');
     data.forEach(element => {
 
-        const newDiv1= document.createElement('div');
+        const newDiv1 = document.createElement('div');
         newDiv1.classList.add('swiper-slide', 'swiper_slide_video');
         // Asignar la URL del video al atributo src
 
@@ -207,7 +208,7 @@ export const showVideos = (data) => {
         // Agregar la propiedad controls para mostrar los controles de video
         swiperWrappervideo.appendChild(newDiv1);
 
-    
+
     })
 
 }
@@ -232,25 +233,25 @@ export const showEnMemoria = (data) => {
         breakpoints: {
             // // when window width is >= 320px
             320: {
-              slidesPerView: 1,
-              spaceBetween: 10
+                slidesPerView: 1,
+                spaceBetween: 10
             },
             // when window width is >= 480px
             480: {
-              slidesPerView: 2,
-              spaceBetween: 10
+                slidesPerView: 2,
+                spaceBetween: 10
             },
-      
-          }
+
+        }
     });
-    const section_en_memoria= document.querySelector('.swiper-wrapper-EnMemoria');
+    const section_en_memoria = document.querySelector('.swiper-wrapper-EnMemoria');
     // const section:
 
     data.forEach(element => {
 
-        const newDiv1= document.createElement('div');
-        newDiv1.classList.add('swiper-slide','post-content-div');
-        newDiv1.setAttribute('id','post-content-div_modifid');
+        const newDiv1 = document.createElement('div');
+        newDiv1.classList.add('swiper-slide', 'post-content-div');
+        newDiv1.setAttribute('id', 'post-content-div_modifid');
         // Asignar la URL del video al atributo src
 
         newDiv1.innerHTML = `
@@ -263,7 +264,7 @@ export const showEnMemoria = (data) => {
         // Agregar la propiedad controls para mostrar los controles de video
         section_en_memoria.appendChild(newDiv1);
 
-    
+
     })
 
 
