@@ -103,28 +103,89 @@
     url_pdf: '../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_3.pdf',
     tipo: 3
 },
-{
-    title: 'Nueva Realidad Ambiental Colombiana',
-    year: 1994,
-    img_principal: '../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_2.png',
-    url_pdf: '../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_2.pdf',
-    tipo: 3
-},
-{
-    title: 'Documento Peligro Inminente',
-    year: 1992,
-    img_principal: '../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_1.jpg',
-    url_pdf: '../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_1.pdf',
-    tipo: 3
-},
-{
-    title: 'prueba',
-    year: 1992,
-    img_principal: '../assets/images/img_Articulos_pdf/ARTICULOS ERNESTO_1.jpg',
-    url_pdf: '',
-    tipo: 3
-},
+
 // termina datos de prensa que ya existia
+
+// datos nuevos
+{
+    title: 'Ingenieros "Meritorios"',
+    year: "",
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/1.jpeg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/1.pdf',
+    tipo: 3
+},
+{
+    title: 'LA SECRETARIA EJECUTIVA',
+    year:1993,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/2.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/2.pdf',
+    tipo: 3
+},
+{
+    title: 'Cómo Salir del hueco',
+    year:1994,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/3.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/3.pdf',
+    tipo: 3
+},
+{
+    title: 'Golpe de esatdo alas universidades',
+    year:1991,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/4.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/4.pdf',
+    tipo: 3
+},
+{
+    title: 'Documento Peligro inminente',
+    year:1992,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/5.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/5.pdf',
+    tipo: 3
+},
+{
+    title: 'El EMBAJADOR DE GRAN BRETAÑA',
+    year:1992,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/6.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/6.pdf',
+    tipo: 3
+},
+
+{
+    title: 'El COSTURERO',
+    year:1993,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/7.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/7.pdf',
+    tipo: 3
+},
+{
+    title: 'Lanzamiento de las bases del Premio Bolívar',
+    year:"",
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/8.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/8.pdf',
+    tipo: 3
+},
+{
+    title: 'Quien será el nuevo ministro del medio ambiente',
+    year:"",
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/9.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/9.pdf',
+    tipo: 3
+},
+{
+    title: 'Nueva realidad ambiental colombiana',
+    year:1994,
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/10.png',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/10.pdf',
+    tipo: 3
+},
+{
+    title: 'Coctel de Tinto Y Perico',
+    year:"",
+    img_principal: '../assets/images/libros_Ernesto/img_prensa/11.jpg',
+    url_pdf: '../assets/Pdf_libros_Ernesto/pdf_prensa/11.pdf',
+    tipo: 3
+},
+
 
 ]
 
