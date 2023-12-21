@@ -33,7 +33,7 @@ const dataEnMemoria = [
     {
         name:'Santiago Diaz Benavides',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita3 (1).pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita3.jpg" 
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita3.jpg",
         url_img:"../assets/images/imagenes_en_memoria/Santiago-Diaz-Benavides.jpg" 
     },
     
@@ -100,7 +100,7 @@ const dataEnMemoria = [
     {
         name:'Julia Mariana Gulligen Becerra',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita11.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita11.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita11.jpg" ,
         url_img:"../assets/images/imagenes_en_memoria/Julia-Mariana-Gulligen-Becerra.jpg"  
     },
 
@@ -108,7 +108,7 @@ const dataEnMemoria = [
     {
         name:'Jorge Humberto Pelaez Piedrahita',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita13.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita13.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita13.jpg" ,
         url_img:"../assets/images/imagenes_en_memoria/Jorge-Humberto-Pelaez-Piedrahita.jpg"  
     },
 
@@ -133,8 +133,8 @@ const dataEnMemoria = [
     {
         name:' Victor Alberto Gomez cusnir',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita15 (3).pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita15.jpg"  
-        url_img:"../assets/images/imagenes_en_memoria/Victor-Alberto-Gomez-cusnir.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita15.jpg", 
+        url_img:"../assets/images/imagenes_en_memoria/Victor-Alberto-Gomez-cusnir.jpg", 
     },
 
     {
@@ -170,8 +170,8 @@ const dataEnMemoria = [
     {
         name:'Paola Andrea Barrera Sanchez',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita19.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita19.jpg"  
-        url_img:"../assets/images/imagenes_en_memoria/ Paola-Andrea-Barrera-Sanchez.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita19.jpg",  
+        url_img:"../assets/images/imagenes_en_memoria/ Paola-Andrea-Barrera-Sanchez.jpg" 
     },
        
     {
