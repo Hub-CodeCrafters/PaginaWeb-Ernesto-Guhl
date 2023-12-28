@@ -123,6 +123,7 @@ function main(data) {
     showYears(years.sortedYearsTipo1,'informes');
     showYears(years.sortedYearsTipo2,'articulos');
     // mostrar los videos
+    // showVideos(datafotos);
     showVideos(dataVideos);
     // mostramos las cartas
     showContent(dataObtenidad,'informes');
