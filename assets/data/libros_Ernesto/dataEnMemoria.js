@@ -107,9 +107,10 @@ const dataEnMemoria = [
     },
 
     {
-        name:'Alfredo Lewin y Maria Consuelo de Lewin ',
+        name:'Victor Alberto Gomez Cusnir ',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita15.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita15.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita15.jpg" ,
+        url_img:"../assets/images/imagenes_en_memoria/Victor-Alberto-Gomez-cusnir.jpg"  
     },
 
     {
@@ -127,13 +128,14 @@ const dataEnMemoria = [
     },
 
     {
-        name:' ',
+        name:'Invemar ',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita18.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita18.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita18.jpg"  ,
+        url_img:"../assets/images/imagenes_en_memoria/invemar.png"
     },
 
     {
-        name:'',
+        name:'Ideal',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita19.pdf",
         url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita19.jpg",  
         url_img:"../assets/images/imagenes_en_memoria/ideal-fundacion.jpg" 
@@ -141,16 +143,17 @@ const dataEnMemoria = [
     },
        
     {
-        name:' Paola Andrea Barrera Sanchez',
+        name:'Paola Andrea Barrera Sanchez',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita20.pdf",
         url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita20.jpg"  ,
         url_img:"../assets/images/imagenes_en_memoria/Paola-Andrea-Barrera-Sanchez.jpg" 
     },
 
     {
-        name:' ',
+        name:'Diario el Tiempo ',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita21.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita21.jpg"  
+        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita21.jpg" ,
+        url_img:"../assets/images/imagenes_en_memoria/Logo-Tiempo.jpg"
     },
 
 
