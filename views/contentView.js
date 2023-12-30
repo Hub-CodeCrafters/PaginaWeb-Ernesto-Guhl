@@ -41,17 +41,8 @@ export const showPrensa = (data,year) => {
     const templateContent = document.getElementById('template_content');
 
     var swiper = new Swiper(".mySwiper", {
-        effect: "Flip",
-        grabCursor: true,
-        centeredSlides: true,
+        effect: "Flip",    
         slidesPerView: "auto",
-        coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-        },
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
