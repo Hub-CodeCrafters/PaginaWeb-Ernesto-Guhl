@@ -3,6 +3,7 @@
 
 // funcion  para mostrar los años de la data 
 export const showYears = (data, divId) => {
+
     const divElement = document.getElementById(divId);
     const templateElemento = document.getElementById('template_elemento');
 
@@ -17,7 +18,7 @@ export const showYears = (data, divId) => {
 };
 
 export const showContent = (data, tipo) => {
-    
+
     const templateContent = document.getElementById('template_content');
 
     data.forEach(element => {
@@ -32,20 +33,15 @@ export const showContent = (data, tipo) => {
             }
         }
     });
-
-
-
 }
+
 // esta funcion se encarga de mostrar todas las tarjetas de la data que se le pasa  en su corespondiente año  y  tipo
-export const showPrensa = (data,) => {
+export const showPrensa = (data,year) => {
 
     const templateContent = document.getElementById('template_content');
 
-    // definimos el js del wiper por fuera para no hacerlo dentro del bucle  y el if  pero hay que ver si se saca para otro lado  por que esta funcion
-    // solo debe manejar la condicion de mostrar no de crear el wiper
-
     var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
+        effect: "Flip",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
@@ -64,13 +60,13 @@ export const showPrensa = (data,) => {
             el: ".swiper-pagination",
             clickable: true,
         },
+       
 
     });
     const swiperWrapper = document.querySelector('.mySwiper_wrapper');
 
     data.forEach(element => {
         const plantillaCarta = document.importNode(templateContent.content, true);
-
         // declaramos el  funcionamiento antes de mostrar cada elemento
         // mostramos los elementos en el dom
         const newDiv1 = document.createElement('div');
@@ -84,14 +80,7 @@ export const showPrensa = (data,) => {
                 <p class="carrousel_p">${element.year}</p>
                 `;
         swiperWrapper.appendChild(newDiv1);
-
-
-
-
     });
-
-
-
 };
 
 // funcion encargada de mostrar todo los años para el filtro de fecha 
@@ -147,11 +136,7 @@ export const showAllYears = (data) => {
 <p class="filter_tipo" id = "books_tec-fecha" >${element}</p>
 `;
         swiper_wrapper_year.appendChild(newDiv1);
-
-
     })
-
-
 }
 
 
@@ -192,13 +177,13 @@ export const showVideos = (data) => {
             }
         }
     });
-    const swiperWrappervideo = document.querySelector('.swiper-wrapper-videos');
-    data.forEach(element => {
 
+    const swiperWrappervideo = document.querySelector('.swiper-wrapper-videos');
+
+    data.forEach(element => {
         const newDiv1 = document.createElement('div');
         newDiv1.classList.add('swiper-slide', 'swiper_slide_video');
         // Asignar la URL del video al atributo src
-
         newDiv1.innerHTML = `
   <video class="video" controls>
     <source src="${element}" type="video/mp4">
@@ -207,7 +192,6 @@ export const showVideos = (data) => {
 `;
         // Agregar la propiedad controls para mostrar los controles de video
         swiperWrappervideo.appendChild(newDiv1);
-
 
     })
 
@@ -263,9 +247,5 @@ export const showEnMemoria = (data) => {
 `;
         // Agregar la propiedad controls para mostrar los controles de video
         section_en_memoria.appendChild(newDiv1);
-
-
     })
-
-
 }
