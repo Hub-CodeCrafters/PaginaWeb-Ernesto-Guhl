@@ -22,6 +22,8 @@ const filter_four = document.getElementsByClassName("filter_four")
 document.addEventListener("DOMContentLoaded", function () {
     main(publicaciones)
 })
+
+
  //esta funcion es la que se encarga de darle funcionalidad alas categorias principales osea(mostrar sub categorias borrar seleccion etc y agregar selecion y  eliminar los filtros)
 document.addEventListener("DOMContentLoaded", function () {
     const filter_tipo = document.querySelectorAll(".filter_tipo");
@@ -66,8 +68,8 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 })
 
-// amanejamos los efectos del clic de las sub categorias  y la mustra de los datos con el filtro selecionado 
 
+// amanejamos los efectos del clic de las sub categorias  y la muestra de los datos con el filtro selecionado
 document.addEventListener("DOMContentLoaded", function () {
     const filter_tipo = document.querySelectorAll(".filter_tipo");
     Array.from(filter_tipo).forEach((categorie) => {
@@ -109,8 +111,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 //  esto siempre se debe de ejecutar por que son los años del filtro 
-const datayear = everyYear(publicaciones)
-showAllYears(datayear,'')
+const dataYear = [publicaciones, Data_prensa]
+const dataYearSubtipe = everyYear(dataYear)
+showAllYears(dataYearSubtipe)
 
 
 //  esta funcion es la encargada de mostrar toda la informacion sin filtros los años los articulos prensa etc 
@@ -119,11 +122,10 @@ function main(data) {
     removeElementsByClass('categorie_cars')
     removeElementsByClass('swiper_slide_articulo')
     const dataObtenidad = getAllPublications(data);
-    const years = getUniqueYears(dataObtenidad);
-    showYears(years.sortedYearsTipo1,'informes');
-    showYears(years.sortedYearsTipo2,'articulos');
-    // mostrar los videos
-    // showVideos(datafotos);
+    const yearsInformes = getUniqueYears(dataObtenidad,'informes');
+    const yearsArticulos = getUniqueYears(dataObtenidad,'articulos');
+    showYears(yearsInformes,'informes');
+    showYears(yearsArticulos,'articulos');
     showVideos(dataVideos);
     // mostramos las cartas
     showContent(dataObtenidad,'informes');
@@ -139,14 +141,16 @@ function filtro(data, category) {
     removeElementsByClass('categorie_cars')
     removeElementsByClass('categorie_video')
     removeElementsByClass('swiper_slide_articulo')
-    const dataObtenidad = getPublicationByCategory(data, category);
-    const years = getUniqueYears(dataObtenidad);
-    showYears(years.sortedYearsTipo1,'informes');
-    showYears(years.sortedYearsTipo2,'articulos');
+    const dataObtenidadPublicaciones = getPublicationByCategory(data, category);
+    const yearsInformes = getUniqueYears(dataObtenidadPublicaciones,'informes');
+    const yearsArticulos = getUniqueYears(dataObtenidadPublicaciones,'articulos');
+    showYears(yearsInformes,'informes');
+    showYears(yearsArticulos,'articulos');
     // mostramos las cartas
-    showContent(dataObtenidad,'informes');
-    showContent(dataObtenidad,'articulos');
-    showPrensa(Data_prensa);
+    showContent(dataObtenidadPublicaciones ,'informes');
+    showContent(dataObtenidadPublicaciones ,'articulos');
+    const dataObtenidadPrensa = getPublicationByCategory(Data_prensa, category);
+    showPrensa(dataObtenidadPrensa);
 }
 
 

@@ -121,13 +121,13 @@ function main(data) {
     removeElementsByClass('categorie_year')
     removeElementsByClass('categorie_cars')
     const dataObtenidad = getAllPublications(data);
-    const years = getUniqueYears(dataObtenidad);
-    showYears(years.sortedYearsTipo3,'libros');
-    showYears(years.sortedYearsTipo4,'capitulos');
+    const yearsCapitulos = getUniqueYears(dataObtenidad,'capitulos');
+    const yearsLibros = getUniqueYears(dataObtenidad,'libros');
+    showYears(yearsLibros,'libros');
+    showYears(yearsCapitulos,'capitulos');
     // mostramos las cartas
     showContent(dataObtenidad,'libros');
     showContent(dataObtenidad,'capitulos');
-
 }
 
 
@@ -138,13 +138,13 @@ function filtro(data, category) {
     removeElementsByClass('categorie_cars')
     // removeElementsByClass('swiper_slide_articulo')
     const dataObtenidad = getPublicationByCategory(data, category);
-    const years = getUniqueYears(dataObtenidad);
-    showYears(years.sortedYearsTipo3,'libros' );
-    showYears(years.sortedYearsTipo4,'capitulos' );
+    const yearsCapitulos = getUniqueYears(dataObtenidad,'capitulos');
+    const yearsLibros = getUniqueYears(dataObtenidad,'libros');
+    showYears(yearsLibros,'libros');
+    showYears(yearsCapitulos,'capitulos');
     // mostrar carats
     showContent(dataObtenidad,'libros');
     showContent(dataObtenidad,'capitulos');
-   
 }
 
 
