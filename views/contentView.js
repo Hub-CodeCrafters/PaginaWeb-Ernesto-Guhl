@@ -36,13 +36,13 @@ export const showContent = (data, tipo) => {
 }
 
 // esta funcion se encarga de mostrar todas las tarjetas de la data que se le pasa  en su corespondiente año  y  tipo
-export const showPrensa = (data,year) => {
+export const showPrensa = (data, year) => {
 
     const templateContent = document.getElementById('template_content');
 
     var swiper = new Swiper(".mySwiper", {
-        effect: "Flip",    
         slidesPerView: "auto",
+        spaceBetween: 20,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -51,7 +51,6 @@ export const showPrensa = (data,year) => {
             el: ".swiper-pagination",
             clickable: true,
         },
-       
 
     });
     const swiperWrapper = document.querySelector('.mySwiper_wrapper');
@@ -188,6 +187,73 @@ export const showVideos = (data) => {
 
 }
 
+// export const showFotos = (data) => {
+//     var swiper = new Swiper(".swiperFotos", {
+//         effect: 'cube',
+//         grabCursor: true, // Agregado para mejorar la experiencia de usuario al pasar sobre el swiper
+//         navigation: {
+//             nextEl: ".swiper-button-next",
+//             prevEl: ".swiper-button-prev",
+//         },
+//         pagination: {
+//             el: ".swiper-pagination",
+//             clickable: true,
+//         },
+//     });
+
+//     const swiperWrappervideo = document.querySelector('.swiper-wrapper-fotos');
+
+//     data.forEach(element => {
+//         const newDiv1 = document.createElement('div');
+//         newDiv1.classList.add('swiper-slide', 'swiper_slide_fotos');
+//         // Asignar la URL del video al atributo src
+//         newDiv1.innerHTML = `
+//         <a class="carrousel_icon"  href="${element.url_pdf}" target="_blank">
+//                 <img class="carrousel_icon_img" src="../assets/icons/bxs-right-top-arrow-circle.svg">
+//                 </a>
+//     <img class="imgFotos" src="${element.url_img}" alt="no esta">
+  
+// `;
+//         // Agregar la propiedad controls para mostrar los controles de video
+//         swiperWrappervideo.appendChild(newDiv1);
+
+//     })
+
+// }
+export const showFotos = (data) => {
+    var swiper = new Swiper(".swiperFotos", {
+        slidesPerView: "auto",
+        spaceBetween: 20,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+
+    const swiperWrappervideo = document.querySelector('.swiper-wrapper-fotos');
+
+    data.forEach(element => {
+        const newDiv1 = document.createElement('div');
+        newDiv1.classList.add('swiper-slide', 'swiper_slide_fotos');
+        // Asignar la URL del video al atributo src
+        newDiv1.innerHTML = `
+        <a class="carrousel_icon"  href="${element.url_pdf}" target="_blank">
+                <img class="carrousel_icon_img" src="../assets/icons/bxs-right-top-arrow-circle.svg">
+                </a>
+    <img class="imgFotos" src="${element.url_img}" alt="no esta">
+  
+`;
+        // Agregar la propiedad controls para mostrar los controles de video
+        swiperWrappervideo.appendChild(newDiv1);
+
+    })
+
+}
+
 
 
 
@@ -206,16 +272,25 @@ export const showEnMemoria = (data) => {
             clickable: true,
         },
         breakpoints: {
-            // // when window width is >= 320px
+            // when window width is >= 320px
             320: {
                 slidesPerView: 1,
-                spaceBetween: 10
+                spaceBetween: 5
             },
             // when window width is >= 480px
             480: {
-                slidesPerView: 2,
-                spaceBetween: 10
+                slidesPerView: 1,
+                spaceBetween: 5
             },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 5
+            },
+            960: {
+                slidesPerView: 4,
+                spaceBetween: 5
+            }
 
         }
     });

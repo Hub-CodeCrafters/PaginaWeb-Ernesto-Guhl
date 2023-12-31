@@ -1,11 +1,12 @@
 // archivo encargado de  interatuar con la funciones que sacan los datos y con las que muestran los datos  osea con los servicio y view necesarios para mostrar la informacion de las publicaciones segun el filtro
 import { getAllPublications, getUniqueYears, getPublicationByCategory, everyYear, removeElementsByClass } from '../services/contentService.js';
-import { showYears, showPrensa,showContent, showAllYears,showVideos } from '../views/contentView.js';
+import { showYears, showPrensa,showContent, showAllYears,showVideos, showFotos } from '../views/contentView.js';
 import { removeFilterSubtipo, addSelecFilter, removeFilterSelec } from '../helpers/filterHelpers.js';
 
 // data necesaria
 import publicaciones from '../assets/data/publicaciones.js';
 import dataVideos from '../assets/data/dataVideos.js';
+import dataFotos from '../assets/data/libros_Ernesto/data_fotos.js';
 import Data_prensa from '../assets/data/libros_Ernesto/data_prensa.js';
 
 
@@ -127,6 +128,7 @@ function main(data) {
     showYears(yearsInformes,'informes');
     showYears(yearsArticulos,'articulos');
     showVideos(dataVideos);
+    showFotos(dataFotos);
     // mostramos las cartas
     showContent(dataObtenidad,'informes');
     showContent(dataObtenidad,'articulos');
