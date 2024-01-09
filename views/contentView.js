@@ -205,7 +205,7 @@ export const showFotos = (data) => {
         },
     });
 
-    const swiperWrappervideo = document.querySelector('.swiper-wrapper-fotos');
+    const swiperWrapperfotos = document.querySelector('.swiper-wrapper-fotos');
 
     data.forEach(element => {
         const newDiv1 = document.createElement('div');
@@ -219,7 +219,7 @@ export const showFotos = (data) => {
   
 `;
         // Agregar la propiedad controls para mostrar los controles de video
-        swiperWrappervideo.appendChild(newDiv1);
+        swiperWrapperfotos.appendChild(newDiv1);
 
     })
 
