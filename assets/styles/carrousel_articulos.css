@@ -78,33 +78,35 @@
 .swiperYear{
     padding: 1rem;
 }
-.swiper-button-next-prensa{
+/* .swiper-button-next-prensa{
     background-color: aqua;
-}
+} */
 
 
 
 /* estilos de las fotos  */
 #Fotos{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     /* background-color: brown; */
 }
 .swiperFotos{
     width: 95%;
-    height: 80%;
+    height: 95%;
     /* background-color: blueviolet; */
-  
-
 }
 
+.swiper-wrapper-fotos{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
  .swiper_slide_fotos{
+    margin-top: 20px;
     width: 24%;   
-    height: 90%;
+    height: 80%;
     border-radius: 20px 20px;
     box-shadow: 5px 5px 20px 0px var(--primary-color);
-    /* background-color: aqua; */
-   
 } 
 
 .imgFotos{
