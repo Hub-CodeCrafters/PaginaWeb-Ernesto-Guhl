@@ -43,6 +43,7 @@ export const showPrensa = (data, year) => {
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
         spaceBetween: 20,
+        grabCursor: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -80,6 +81,7 @@ export const showAllYears = (data) => {
 
     var swiper = new Swiper(".swiperYear", {
         slidesPerView: 7,
+        grabCursor: true,
         grid: {
             rows: 1,
         },
@@ -133,6 +135,7 @@ export const showAllYears = (data) => {
 export const showVideos = (data) => {
     var swiper = new Swiper(".swiperVideos", {
         // slidesPerView: 4,
+        grabCursor: true,
         grid: {
             rows: 1,
         },
@@ -187,43 +190,11 @@ export const showVideos = (data) => {
 
 }
 
-// export const showFotos = (data) => {
-//     var swiper = new Swiper(".swiperFotos", {
-//         effect: 'cube',
-//         grabCursor: true, // Agregado para mejorar la experiencia de usuario al pasar sobre el swiper
-//         navigation: {
-//             nextEl: ".swiper-button-next",
-//             prevEl: ".swiper-button-prev",
-//         },
-//         pagination: {
-//             el: ".swiper-pagination",
-//             clickable: true,
-//         },
-//     });
-
-//     const swiperWrappervideo = document.querySelector('.swiper-wrapper-fotos');
-
-//     data.forEach(element => {
-//         const newDiv1 = document.createElement('div');
-//         newDiv1.classList.add('swiper-slide', 'swiper_slide_fotos');
-//         // Asignar la URL del video al atributo src
-//         newDiv1.innerHTML = `
-//         <a class="carrousel_icon"  href="${element.url_pdf}" target="_blank">
-//                 <img class="carrousel_icon_img" src="../assets/icons/bxs-right-top-arrow-circle.svg">
-//                 </a>
-//     <img class="imgFotos" src="${element.url_img}" alt="no esta">
-  
-// `;
-//         // Agregar la propiedad controls para mostrar los controles de video
-//         swiperWrappervideo.appendChild(newDiv1);
-
-//     })
-
-// }
 export const showFotos = (data) => {
     var swiper = new Swiper(".swiperFotos", {
         slidesPerView: "auto",
         spaceBetween: 20,
+        grabCursor: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
@@ -259,6 +230,7 @@ export const showFotos = (data) => {
 
 export const showEnMemoria = (data) => {
     var swiper = new Swiper(".swiperEnMemoria", {
+        grabCursor: true,
         grid: {
             rows: 1,
         },
