@@ -3,7 +3,7 @@ const Libros = [
         title: "ANTROPOCENO: LA HUELLA HUMANA.",
         year: 2022,
         img_principal: "../assets/images/Antropoceno.jpg",
-        url: "",
+        url: "https://antropoceno-geogeeks2.hub.arcgis.com",
         tipo : "libros",
         escalas_regionales: false,
         escalas_locales: false,
@@ -112,7 +112,8 @@ const Libros = [
         title: "EL AGUA UN PATRIMONIO QUE CIRCULA DE MANO EN MANO",
         year: 2011,
         img_principal: "../assets/images/Libros_img/cap_2.png",
-        url: "../assets/images/Libros_img/cap_1.png",
+         // RELLENO
+         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo : "capitulos",
         escalas_regionales: true,
         escalas_locales: false,
@@ -124,7 +125,8 @@ const Libros = [
         title: "SISTEMA NACIONAL AMBIENTAL",
         year: 2008,
         img_principal: "../assets/images/Libros_img/cap_3.png",
-        url: "",
+         // RELLENO
+         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo : "capitulos",
         escalas_regionales: true,
         escalas_locales: false,
@@ -136,7 +138,8 @@ const Libros = [
         title: "HACIA EL DESARROLLO SOSTENIBLE EN COLOMBIA",
         year: 2008,
         img_principal: "../assets/images/Libros_img/cap_4.png",
-        url: "",
+         // RELLENO
+         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo : "capitulos",
         escalas_regionales: false,
         escalas_locales: false,
@@ -148,7 +151,8 @@ const Libros = [
         title: "GOBERNABILIDAD INSTITUCIONES Y MEDIO AMBIENTE",
         year: 2007,
         img_principal: "../assets/images/Libros_img/cap_5.png",
-        url: "",
+         // RELLENO
+         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo : "capitulos",
         escalas_regionales: true,
         escalas_locales: false,
@@ -160,7 +164,8 @@ const Libros = [
         title: "QUE ESTA PASANDO EN COLOMBIA",
         year: 2000,
         img_principal: "../assets/images/Libros_img/cap_6.png",
-        url: "",
+         // RELLENO
+         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo : "capitulos",
         escalas_regionales:false,
         escalas_locales:true,
@@ -172,7 +177,8 @@ const Libros = [
         title: "VIDA Y REGION. GESTION AMBIENTAL EN EL VALLE DEL CAUCA",
         year: 2000,
         img_principal: "../assets/images/Libros_img/cap_7.png",
-        url: "",
+         // RELLENO
+         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=d2dab6c789a846038fa1d4f9c6414a15",
         tipo : "capitulos",
         escalas_regionales:false,
         escalas_locales:true,

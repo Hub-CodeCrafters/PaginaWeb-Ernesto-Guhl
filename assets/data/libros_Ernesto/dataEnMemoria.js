@@ -18,13 +18,7 @@ const dataEnMemoria = [
         url_img:"../assets/images/imagenes_en_memoria/Logo-Tiempo.jpg"   
     },
 
-    {
-        name:'El tiempo',
-        url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita2.pdf",
-        url_img:"../assets/images/libros_Ernesto/img_en_memoria/cita2.jpg",
-        url_img:"../assets/images/imagenes_en_memoria/Logo-Tiempo.jpg"  
-    },
-      
+
     {
         name:'Santiago Diaz Benavides',
         url_palabras:"../assets/Pdf_libros_Ernesto/pdf_en_memoria/cita3.pdf",
