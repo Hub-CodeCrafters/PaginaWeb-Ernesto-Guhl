@@ -1,5 +1,5 @@
 const publicaciones = [
-
+// ARTICULOS Y INFORMES
     // --------------------------------------------------------------------------------
     {
         title: "DISEÑO INSTITUCIONAL PARA APLICAR LA GESTIÓN INTEGRADA DEL AGUA Y DEL TERRITORIO GIAT.",
@@ -349,7 +349,9 @@ const publicaciones = [
         url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=0533d692c33047dea30d347493e1ad7e",
         img_principal: "../assets/images/publicaciones_img/informes_img/ago_downloaded (10).png",
         tipo: "informes",
-    }, {
+    },
+    // ACTUALIZADO
+    {
 
         title: "LA NATURALEZA EN EL CONFLICTO ARMADO",
         year: 2015,
@@ -358,14 +360,12 @@ const publicaciones = [
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=1388f9f17dfd4946b29169f3f6bbabd5",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/fcae19c1088541939443413ccdb4b9ed",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (36).png",
         tipo: "articulos",
     },
 
-
     {
-
         title: "LA ÚLTIMA OPORTUNIDAD",
         year: 2015,
         escalas_regionales: false,
@@ -391,7 +391,7 @@ const publicaciones = [
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (38).png",
         tipo: "articulos",
     },
-
+// ACTUALIZADO
     {
 
         title: "COMBUSTIBLES FOSILES O ENERGIA RENOVABLE",
@@ -401,7 +401,7 @@ const publicaciones = [
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=1388f9f17dfd4946b29169f3f6bbabd5",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/0d215bbd896043e5b2b9af4b0b04b740",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (43).png",
         tipo: "articulos",
     },
@@ -431,7 +431,9 @@ const publicaciones = [
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (24).png",
         tipo: "articulos"
 
-    }, {
+    },
+    // ACTUALIZADO
+    {
         title: "EL PARAÍSO PERDIDO – LA AMAZONIA EN EL 2035",
         year: 2012,
         escalas_regionales: true,
@@ -439,7 +441,7 @@ const publicaciones = [
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=1d82a5fff101480ab92a0f36ec1a6b01",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/1bb7cb43409349cc8622b1733b129151",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (22).png",
         tipo: "articulos"
 
@@ -1018,7 +1020,9 @@ const publicaciones = [
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (30).png",
         tipo: "articulos"
 
-    }, {
+    },
+    // ACTUALIZADO
+    {
         title: "RIO MAS 20 Ó RIO MENOS 20",
         year: 2009,
         escalas_regionales: true,
@@ -1026,11 +1030,13 @@ const publicaciones = [
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=c1c173e309b448a58bb7e58dd492bf24",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/fccaa36fbfc74b958baef5d4fccc74bf",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (46).png",
         tipo: "articulos"
 
-    }, {
+    }, 
+    // ACTUALIZADO
+    {
         title: "AGUA Y DESARROLLO",
         year: 2009,
         escalas_regionales: true,
@@ -1038,11 +1044,13 @@ const publicaciones = [
         investigacion_ambiental: false,
         manejo_de_agua: true,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=739354b196724c27a2033a6413151758",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/3d2a6adba53d49e4b5acccc5b947f6f3",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (3).png",
         tipo: "articulos"
 
-    }, {
+    },
+    // ACTUALIZADO
+    {
         title: "BASES PARA UN MANIFIESTO AMBIENTAL",
         year: 2011,
         escalas_regionales: false,
@@ -1050,7 +1058,7 @@ const publicaciones = [
         investigacion_ambiental: false,
         manejo_de_agua: false,
         tecnologias_limpias: true,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=99fc0c5230844bfabdbc0b1d3425c9aa",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/1090abf0ec4e4d439c121d463163b13e",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (5).png",
         tipo: "articulos"
 
@@ -1066,7 +1074,9 @@ const publicaciones = [
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (11).png",
         tipo: "articulos"
 
-    }, {
+    }, 
+    // ACTUALIZADO
+    {
         title: "EL TRILEMA MINERO",
         year: 2011,
         escalas_regionales: true,
@@ -1074,7 +1084,7 @@ const publicaciones = [
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=a7cfe8e51edf465088d9422c86302203",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/2da3ee0077ac4d8b99648dd186b34f42",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (23).png",
         tipo: "articulos"
 
@@ -1090,7 +1100,9 @@ const publicaciones = [
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (35).png",
         tipo: "articulos"
 
-    }, {
+    }, 
+    // ACTUALIZADO
+    {
         title: "REFLEXIONES SOBRE LA SOSTENIBILIDAD",
         year: 2013,
         escalas_regionales: true,
@@ -1098,11 +1110,13 @@ const publicaciones = [
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=5108f56e21914c5fbc76fc165df9950e",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/382a6d6776b54f00913c57f3e0356c61",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (43).png",
         tipo: "articulos"
 
-    }, {
+    },
+        // ACTUALIZADO
+    {
         title: "ZAPATERO, A TUS ZAPATOS",
         year: 2014,
         escalas_regionales: false,
@@ -1110,11 +1124,13 @@ const publicaciones = [
         investigacion_ambiental: true,
         manejo_de_agua: false,
         tecnologias_limpias: false,
-        url: "https://geogeeks2.maps.arcgis.com/apps/MapJournal/index.html?appid=0815bec80f5546f1979d8f5c29a8872a",
+        url: "https://geoapps.esri.co/portal/apps/storymaps/stories/c21de98fa18146368315695aae6408f2",
         img_principal: "../assets/images/publicaciones_img/ago_downloaded (45).png",
         tipo: "articulos"
 
-    }, {
+    },
+
+    {
         title: "LA REGIÓN DE LA QUE DEPENDE EL RÍO BOGOTÁ",
         year: 2015,
         escalas_regionales: true,
