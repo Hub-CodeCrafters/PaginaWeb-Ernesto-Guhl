@@ -1,15 +1,15 @@
 const dataFotos = [
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto1.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto1.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto1.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto1.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto2.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto2.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto2.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto2.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -17,11 +17,11 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto3 (1).jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto3 (2).pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto3 (2).jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto3 (2).pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto3 (2).jpg"
+    // },
 
     {
         fotos: ' ',
@@ -65,17 +65,17 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto11.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto12.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto12.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto12.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto12.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto13.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto13.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto13.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto13.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -83,11 +83,11 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto14.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto15.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto15.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto15.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto15.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -95,11 +95,11 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto16.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto17.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto17.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto17.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto17.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -235,11 +235,11 @@ const dataFotos = [
          url_img: "../assets/images/libros_Ernesto/img_fotos/foto39.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto40.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto40.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto40.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto40.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -297,29 +297,29 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto49.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto50.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto50.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto50.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto50.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto51.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto51.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto51.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto51.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto52.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto52.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto52.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto52.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto53.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto53.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto53.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto53.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -363,11 +363,11 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto60.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto61.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto61.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto61.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto61.jpg"
+    // },
 
     {
         fotos: ' ',
@@ -399,41 +399,41 @@ const dataFotos = [
         url_img: "../assets/images/libros_Ernesto/img_fotos/foto66.jpg"
     },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto67.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto67.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto67.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto67.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto68.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto68.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto68.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto68.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto69.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto69.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto69.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto69.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto70.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto70.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto70.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto70.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto71.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto71.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto71.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto71.jpg"
+    // },
 
-    {
-        fotos: ' ',
-        url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto72.pdf",
-        url_img: "../assets/images/libros_Ernesto/img_fotos/foto72.jpg"
-    },
+    // {
+    //     fotos: ' ',
+    //     url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto72.pdf",
+    //     url_img: "../assets/images/libros_Ernesto/img_fotos/foto72.jpg"
+    // },
     {
         fotos: ' ',
         url_pdf: "../assets/Pdf_libros_Ernesto/pdf_fotos/foto73.pdf",
